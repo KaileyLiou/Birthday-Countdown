@@ -6,6 +6,10 @@ h1 {
     font-size: 50px;
 }
 
+h1:hover {
+    color: #c9184a;
+} 
+
 body {
     background-color: #f0f8ff;
     font-family: "Quicksand", sans-serif;

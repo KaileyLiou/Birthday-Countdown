@@ -32,7 +32,7 @@ function startCountdown() {
     if(diffDays <= 0) {
         countdown.innerHTML = "Happy Birthday! 🎉";
     } else {
-        countdown.innerHTML = `Your birthday is in ${daysLeft} day(s)! 🎈`;
+        countdown.innerHTML = `Your birthday is in ${diffDays} day(s)! 🎈`;
     }
 
 }

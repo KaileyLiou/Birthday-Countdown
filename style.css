@@ -22,7 +22,6 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
     font-size: 20px;
     font-family: "Quicksand", sans-serif;
 }
@@ -31,3 +30,12 @@ button:hover {
     background-color: #c9184a;
 }
 
+input[type="date"] {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+    font-family: "Quicksand", sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+}

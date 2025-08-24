@@ -9,6 +9,8 @@ h1 {
 h1:hover {
     color: #c9184a;
     transition: color 0.3s;
+    transform: scale(1.05);
+    transition: transform 0.3s;
 } 
 
 body {

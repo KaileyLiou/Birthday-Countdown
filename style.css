@@ -1,20 +1,18 @@
 h1 {
     text-align: center;
-    font-family: 'Arial', sans-serif;
+    font-family: "Quicksand", sans-serif;
     color: #ff4d6d;
     margin-top: 50px;
     font-size: 50px;
-    font-family: "Fredoka", sans-serif;
 }
 
 body {
     background-color: #f0f8ff;
-    font-family: 'Arial', sans-serif;
+    font-family: "Quicksand", sans-serif;
     text-align: center;
     padding: 20px;
     color: #333;
     font-size: 30px;
-    font-family: "Fredoka", sans-serif;
 }
 
 button {
@@ -26,7 +24,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     font-size: 30px;
-    font-family: "Fredoka", sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 button:hover {

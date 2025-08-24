@@ -45,3 +45,8 @@ input[type="date"]:focus {
   border-color: #ff4d6d;
   box-shadow: 0 0 5px #ff4d6d;
 }
+
+img {
+    width: 150px;
+    margin-top: 20px;
+}

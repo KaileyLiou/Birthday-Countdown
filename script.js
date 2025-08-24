@@ -16,7 +16,6 @@ function startCountdown() {
         birthday.setFullYear(today.getFullYear() + 1);
     }
 
-    // const now = new Date();
     // let birthday = new Date(birthdayInput);
 
     // birthday.setFullYear(now.getFullYear());

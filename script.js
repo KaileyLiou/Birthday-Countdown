@@ -10,9 +10,22 @@ function startCountdown() {
     const now = new Date();
     let birthday = new Date(birthdayInput);
 
+    // setting birthday to this year
     birthday.setFullYear(now.getFullYear());
+
+    // if birthday passed already
     if (birthday < now) {
         birthday.setFullYear(now.getFullYear() + 1);
+    }
+
+    const oneDay = 24 * 60 * 60 * 1000;
+    const diffDays = birthday - now;
+    const daysLeft = Math.ceil(diffDays / oneDay);
+
+    if(diffDays <= 0) {
+        countdown.innerHTML = "Happy Birthday! 🎉";
+    } else {
+        countdown.innerHTML = `Your birthday is in ${daysLeft} day(s)! 🎈`;
     }
 
 }

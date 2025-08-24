@@ -42,6 +42,6 @@ input[type="date"] {
 
 input[type="date"]:focus {
   outline: none;
-  border-color: #ff1493;
-  box-shadow: 0 0 5px #ff1493;
+  border-color: #ff4d6d;
+  box-shadow: 0 0 5px #ff4d6d;
 }

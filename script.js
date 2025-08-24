@@ -29,7 +29,7 @@ function startCountdown() {
     const diffDays = Math.round((birthday - today) / oneDay);
     // const daysLeft = Math.ceil(diffDays / oneDay);
 
-    if(diffDays <= 0) {
+    if(diffDays === 0) {
         countdown.innerHTML = "Happy Birthday! 🎉";
     } else {
         countdown.innerHTML = `Your birthday is in ${diffDays} day(s)! 🎈`;

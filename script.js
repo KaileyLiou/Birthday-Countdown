@@ -8,15 +8,22 @@ function startCountdown() {
     }
 
     const now = new Date();
-    let birthday = new Date(birthdayInput);
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const input = new Date(birthdayInput);
+    const birthday = new Date(today.getFullYear(), input.getMonth(), input.getDate());
 
-    // setting birthday to this year
-    birthday.setFullYear(now.getFullYear());
-
-    // if birthday passed already
-    if (birthday < now) {
-        birthday.setFullYear(now.getFullYear() + 1);
+    if (birthday < today) {
+        birthday.setFullYear(today.getFullYear() + 1);
     }
+
+    // const now = new Date();
+    // let birthday = new Date(birthdayInput);
+
+    // birthday.setFullYear(now.getFullYear());
+
+    // if (birthday < now) {
+    //     birthday.setFullYear(now.getFullYear() + 1);
+    // }
 
     const oneDay = 24 * 60 * 60 * 1000;
     const diffDays = birthday - now;

@@ -20,7 +20,7 @@ function startCountdown() {
 
     // birthday.setFullYear(now.getFullYear());
 
-    // if (birthday < now) {
+    // if(birthday < now) {
     //     birthday.setFullYear(now.getFullYear() + 1);
     // }
 
@@ -43,6 +43,6 @@ setInterval(() => {
     origin: { x: Math.random(), y: 0 },
     colors: ['#c71585', '#b8860b', '#4682b4', '#dc143c'],
     gravity: 1,
-    ticks: 200
+    ticks: 150
   });
 }, 50);

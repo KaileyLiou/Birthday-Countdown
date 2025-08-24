@@ -34,7 +34,6 @@ function startCountdown() {
     } else {
         countdown.innerHTML = `Your birthday is in ${diffDays} day(s)! 🎈`;
     }
-
 }
 
 setInterval(() => {

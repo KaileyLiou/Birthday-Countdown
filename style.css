@@ -62,3 +62,8 @@ img:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
 }
+
+::selection {
+    background-color: #ff4d6d;
+    color: fff0f5;
+}

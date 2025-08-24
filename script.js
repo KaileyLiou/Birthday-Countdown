@@ -26,8 +26,8 @@ function startCountdown() {
     // }
 
     const oneDay = 24 * 60 * 60 * 1000;
-    const diffDays = birthday - now;
-    const daysLeft = Math.ceil(diffDays / oneDay);
+    const diffDays = Math.round((birthday - today) / oneDay);
+    // const daysLeft = Math.ceil(diffDays / oneDay);
 
     if(diffDays <= 0) {
         countdown.innerHTML = "Happy Birthday! 🎉";

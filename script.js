@@ -1,4 +1,19 @@
 function startCountdown() {
+    const birthdayInput = document.getElementById("birthday").value;
+    const countdown = document.getElementById('countdown');
+
+    if(!birthdayInput) {
+        countdown.innerHTML = "Please enter a valid birthday.";
+        return;
+    }
+
+    const now = new Date();
+    let birthday = new Date(birthdayInput);
+
+    birthday.setFullYear(now.getFullYear());
+    if (birthday < now) {
+        birthday.setFullYear(now.getFullYear() + 1);
+    }
 
 }
 

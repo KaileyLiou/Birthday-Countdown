@@ -54,7 +54,6 @@ function startCountdown() {
     const inputDate = new Date(birthdayInput);
     let nextBirthday = new Date(today.getFullYear(), inputDate.getMonth(), inputDate.getDate());
 
-    // Handle Feb 29 birthdays
     if (inputDate.getMonth() === 1 && inputDate.getDate() === 29) {
         while (!(nextBirthday.getMonth() === 1 && nextBirthday.getDate() === 29)) {
             nextBirthday.setFullYear(nextBirthday.getFullYear() + 1);

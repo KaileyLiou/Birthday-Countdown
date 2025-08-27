@@ -4,6 +4,8 @@ function startCountdown() {
 
     if(!birthdayInput) {
         countdown.innerHTML = "Please enter a valid birthday.";
+        const inputField = document.getElementById("birthday");
+        inputField.classList.add("input-error");
         return;
     }
 

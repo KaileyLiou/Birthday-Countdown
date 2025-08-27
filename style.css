@@ -67,3 +67,16 @@ img:hover {
     background-color: #ff4d6d;
     color: #fff0f5;
 }
+
+.input-error {
+    border: 2px solid #ff4d6d;
+    animation: shake 0.2s ease-in-out 2;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+}

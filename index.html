@@ -12,9 +12,9 @@
 
 <body>
     <h1>🎉 Birthday Countdown 🎉</h1>
-    <h3>Enter your birthday:</h3>
-    <input type="date" id="birthday">
-    <button onclick="startCountdown()">Start Countdown</button>
+    <label for="birthday">Enter your birthday:</label>
+    <input type="date" id="birthday" aria-required="true">
+    <button onclick="startCountdown()" aria-label="Start Birthday Countdown">Start Countdown</button>
     <p id="countdown"></p>
     <img src="assets/bdaycake.png" alt="Birthday Cake" class="cake">
 
